@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  padding: 3rem;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: unset !important;
+}
+
+@font-face {
+  font-family: "OliGrotesk";
+  src: url("./assets/fonts/Oli Grotesk L Regular.woff2") format("woff2");
+}
+
+body{
+  font-family: "OliGrotesk", sans-serif;
 }
