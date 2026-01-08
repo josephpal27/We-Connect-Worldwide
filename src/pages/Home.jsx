@@ -1,4 +1,4 @@
-
+import SmartConnections from "../components/SmartConnections"
 
 const Home = () => {
   return (
@@ -46,6 +46,9 @@ const Home = () => {
           </button>
         </div>
       </section>
+
+      {/* Smart Connections */}
+      <SmartConnections />
     </>
   )
 }
