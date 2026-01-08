@@ -17,22 +17,22 @@ html{
   src: url("./assets/fonts/Oli Grotesk L Regular.woff2") format("woff2");
 }
 
-/* @font-face {
+@font-face {
   font-family: "NativeDesigner";
   src: url("./assets/fonts/NativeDesigner-Italic.woff2") format("woff2");
-} */
+}
 
-@font-face {
+/* @font-face {
   font-family: "TimesNewRoman";
   src: url("./assets/fonts/times.ttf") format("truetype");
-}
+} */
 
 body{
   font-family: "OliGrotesk", sans-serif;
 }
 
 h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
-  font-family: "TimesNewRoman", sans-serif;
+  font-family: "NativeDesigner", sans-serif;
   color: #000;
   font-style: italic;
   font-weight: normal;

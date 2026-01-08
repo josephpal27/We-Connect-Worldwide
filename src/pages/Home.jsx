@@ -1,3 +1,4 @@
+import OurServices from "../components/OurServices"
 import SmartConnections from "../components/SmartConnections"
 
 const Home = () => {
@@ -49,6 +50,9 @@ const Home = () => {
 
       {/* Smart Connections */}
       <SmartConnections />
+
+      {/* Services */}
+      <OurServices />
     </>
   )
 }

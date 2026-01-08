@@ -31,12 +31,12 @@ const SmartConnections = () => {
                 </h2>
                 <p className="
                     text-[#000] 
-                    text-[1.5rem]
+                    text-[1.3rem]
                     font-[500] 
                     text-center
-                    w-[60%]
+                    w-[50%]
                     mx-auto
-                    mt-[1.5rem]
+                    mt-[1rem]
                 ">
                     We Connect is a leading B2B service provider delivering integrated tech and business solutions to keep your operations secure, connected, and future-ready.
                 </p>
