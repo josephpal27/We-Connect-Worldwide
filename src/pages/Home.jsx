@@ -1,4 +1,5 @@
 import Brands from "../components/Brands"
+import Consultation from "../components/Consultation"
 import OnePlatform from "../components/OnePlatform"
 import OurServices from "../components/OurServices"
 import SmartConnections from "../components/SmartConnections"
@@ -65,6 +66,9 @@ const Home = () => {
 
       {/* Testimonials */}
       <Testimonials />
+
+      {/* Consultation */}
+      <Consultation />
     </>
   )
 }
