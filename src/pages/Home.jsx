@@ -1,5 +1,8 @@
+import Brands from "../components/Brands"
+import OnePlatform from "../components/OnePlatform"
 import OurServices from "../components/OurServices"
 import SmartConnections from "../components/SmartConnections"
+import Testimonials from "../components/Testimonials"
 
 const Home = () => {
   return (
@@ -53,6 +56,15 @@ const Home = () => {
 
       {/* Services */}
       <OurServices />
+
+      {/* Brands */}
+      <Brands />
+
+      {/* One Platform */}
+      <OnePlatform />
+
+      {/* Testimonials */}
+      <Testimonials />
     </>
   )
 }

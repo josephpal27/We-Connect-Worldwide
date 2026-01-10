@@ -5,6 +5,7 @@ const OurServices = () => {
             <section className="
                 py-[1rem]
                 px-[7%]
+                pb-[5rem]
             ">
                 <h3 className="
                     text-center text-[#0764f9] font-[600]
