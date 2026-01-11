@@ -60,3 +60,14 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
   margin-top: -7rem;
 }
 /* Testimonials End */
+
+/* Footer Start */
+footer a{
+  display: block;
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+/* Footer End */
