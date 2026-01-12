@@ -6,7 +6,7 @@ const WhyUs = () => {
     let [textShow, setTextShow] = useState(false);
 
     let toggleText = () => {
-        setTextShow(true);
+        setTextShow(prev => !prev);
     }
 
     return (
@@ -24,11 +24,12 @@ const WhyUs = () => {
                 <div className="
                     w-[45%]
                 ">
-                    <h4 className="
+                    <h3 className="
                         text-[4rem]
+                        font-[600]
                     ">
                         Why our service <br /> <span className="text-[#0764f9]">Key Points of the Services</span>
-                    </h4>
+                    </h3>
                     <p className="
                         text-[1.3rem]
                         mt-[1.5rem]

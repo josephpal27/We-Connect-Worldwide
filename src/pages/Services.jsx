@@ -1,3 +1,4 @@
+import BuildTrust from "../components/BuildTrust"
 import OnePlatform from "../components/OnePlatform"
 import WhyUs from "../components/WhyUs"
 
@@ -34,6 +35,9 @@ const Services = () => {
 
             {/* Why Us */}
             <WhyUs />
+
+            {/* Build Trust */}
+            <BuildTrust />
         </>
     )
 }

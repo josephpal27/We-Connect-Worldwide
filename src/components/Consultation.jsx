@@ -29,6 +29,7 @@ const Consultation = () => {
                     py-[1.2rem]
                     px-[2.5rem]
                     mt-[2rem]
+                    mb-[0.4rem]
                     text-[1.2rem]
                     hover:translate-y-[-5px]
                     shadow-[0_5px_15px_rgba(0,0,0,0.35)]
