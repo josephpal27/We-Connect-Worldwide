@@ -1,3 +1,4 @@
+import ContactDetails from "../components/ContactDetails"
 
 const Contact = () => {
     return (
@@ -28,6 +29,9 @@ const Contact = () => {
                     </p>
                 </div>
             </section>
+
+            {/* Contact Details */}
+            <ContactDetails />
         </>
     )
 }
