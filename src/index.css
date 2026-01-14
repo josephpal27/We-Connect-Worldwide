@@ -61,6 +61,28 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
 }
 /* Testimonials End */
 
+/* Contact Form Start */
+.contact-form label{
+  display: block;
+  color: #eee;
+  font-size: 1.2rem;
+}
+.contact-form input,
+.contact-form textarea{
+  width: 100%;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.7rem 0;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #eee;
+  resize: none;
+}
+/* Contact Form End */
+
 /* Footer Start */
 footer a{
   display: block;
