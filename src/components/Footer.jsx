@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <>
             <footer className="
-                mt-[2rem]
+                mt-[1.5rem]
                 bg-[#0764f9] text-[#fff] px-[7%]
             ">
                 <div className="
