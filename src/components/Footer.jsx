@@ -61,7 +61,7 @@ const Footer = () => {
                                 Contact Info
                             </span>
                             <a href="#">example@gmail.com</a>
-                            <a href="#">0000000000</a>
+                            <a href="#">+00 1234567890</a>
                             <a href="#">Address</a>
                         </div>
                     </div>
