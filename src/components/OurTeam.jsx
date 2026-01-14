@@ -8,21 +8,21 @@ let teamData = [
         image: team1,
         name: "John Elia",
         designation: "(Team head)",
-        para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.",
+        para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.",
     },
     {
         id: 2,
         image: team2,
         name: "John Elia",
         designation: "(Team head)",
-        para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.",
+        para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.",
     },
     {
         id: 3,
         image: team3,
         name: "John Elia",
         designation: "(Team head)",
-        para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.",
+        para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.",
     },
 ]
 
@@ -70,17 +70,28 @@ const OurTeam = () => {
                                 </div>
                                 <div className="
                                     bg-[#0764f9]
-                                    px-[2rem]
+                                    px-[1.3rem]
                                     py-[2rem]
                                     text-[#fff]
+                                    d-flex flex-col items-center
                                 ">
-                                    <span>
+                                    <span className="
+                                        text-[1.5rem]
+                                        font-[600]
+                                    ">
                                         {item.name}
                                     </span>
-                                    <span>
+                                    <span className="
+                                        text-[1rem]
+                                        mt-[0.2rem]
+                                    ">
                                         {item.designation}
                                     </span>
-                                    <p>
+                                    <p className="
+                                        text-center
+                                        mt-[0.7rem]
+                                        text-[1.1rem]
+                                    ">
                                         {item.para}
                                     </p>
                                 </div>
