@@ -31,7 +31,8 @@ const OurTeam = () => {
         <>
             <section className="
                 px-[7%]
-                py-[4rem]
+                pt-[3rem]
+                pb-[5rem]
             ">
                 <div className="
                     d-flex flex-col items-center

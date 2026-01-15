@@ -81,6 +81,10 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
   border-bottom: 1px solid #eee;
   resize: none;
 }
+.contact-form input:focus,
+.contact-form textarea:focus{
+  border-bottom: 1px solid #fff;
+}
 /* Contact Form End */
 
 /* Footer Start */
