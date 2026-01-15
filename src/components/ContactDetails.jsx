@@ -7,8 +7,8 @@ const contactData = [
         id: 1,
         title: "Call Us",
         items: [
-            { label: "For visa", value: "212-763-3310", link: "tel:2127633310" },
-            { label: "For b2b", value: "212-222-0992", link: "tel:2122220992" },
+            { label: "For visa", value: " 212-763-3310", link: "tel:2127633310" },
+            { label: "For b2b", value: " 212-222-0992", link: "tel:2122220992" },
         ],
     },
     {
@@ -16,7 +16,7 @@ const contactData = [
         title: "Location",
         items: [
             {
-                value: "Lorem Ipsum is simply dummy text of the",
+                value: "Lorem ipsum is simply dummy text of the",
                 link: "https://maps.google.com",
             },
         ],
@@ -75,25 +75,42 @@ const ContactDetails = () => {
                     ">
                         {contactData.map((item) => (
                             <div key={item.id} className="
-                                w-[47%]
-                                p-[2rem]
+                                w-[48.5%]
+                                p-[1rem]
                                 border
                                 rounded-[12px]
-                                mb-[1.5rem]
+                                mb-[1.25rem]
                             ">
-                                <h4 className="text-[#0764f9] text-[1.4rem] font-[600] mb-[1rem]">
+                                <span className="
+                                    text-[#0764f9] 
+                                    text-[1.3rem] 
+                                    font-[600] 
+                                    mb-[1rem]
+                                    d-block
+                                ">
                                     {item.title}
-                                </h4>
+                                </span>
 
                                 {/* Normal text / links */}
                                 {item.items &&
                                     item.items.map((data, i) => (
-                                        <p key={i} className="text-[1rem] mb-[0.5rem]">
-                                            {data.label && <strong>{data.label}: </strong>}
+                                        <p key={i} className="
+                                            text-[1.1rem] 
+                                            mb-[0.5rem]
+                                        ">
+                                            {data.label && 
+                                            <b className="
+                                                text-[1.1rem]
+                                            ">
+                                                {data.label} :
+                                            </b>}
                                             <a
                                                 href={data.link}
-                                                className="text-black hover:text-[#0764f9]"
-                                            >
+                                                className="
+                                                    text-[#000] font-[500]
+                                                    hover:text-[#0764f9]
+                                                    text-[1.1rem]
+                                            ">
                                                 {data.value}
                                             </a>
                                         </p>
@@ -101,7 +118,11 @@ const ContactDetails = () => {
 
                                 {/* Social icons */}
                                 {item.socials && (
-                                    <div className="d-flex gap-[1rem] mt-[0.5rem]">
+                                    <div className="
+                                        d-flex 
+                                        gap-[1rem] 
+                                        mt-[0.5rem]
+                                    ">
                                         {item.socials.map((social, i) => (
                                             <a key={i} href={social.link} target="_blank" rel="noopener noreferrer" className="
                                                 text-[#0764f9]
