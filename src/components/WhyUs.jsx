@@ -19,7 +19,11 @@ const WhyUs = () => {
                 <div className="
                     w-[45%]
                 ">
-                    <img src={handshake} alt="One Platform Image" loading="lazy" className="w-full rounded-[75px]" />
+                    <img src={handshake} alt="One Platform Image" loading="lazy" className="
+                        w-full 
+                        rounded-[75px]
+                        shadow-[0_10px_20px_rgba(0,0,0,0.19),_0_6px_6px_rgba(0,0,0,0.23)]
+                    " />
                 </div>
                 <div className="
                     w-[45%]

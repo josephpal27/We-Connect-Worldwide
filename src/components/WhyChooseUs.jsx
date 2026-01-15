@@ -66,7 +66,12 @@ const WhyChooseUs = () => {
                         w-[50%]
                         mt-[1rem]
                     ">
-                        <img src={brickImg} alt="Brick Image" loading="lazy" className="w-full scale-[1.2]" />
+                        <img src={brickImg} alt="Brick Image" loading="lazy" className="
+                            w-full 
+                            scale-[1.2]
+                            shadow-[0_5px_15px_0px_rgba(0,0,0,0.15)]
+                            rounded-[50px]
+                        " />
                     </div>
                     <div className="
                         d-flex
@@ -75,7 +80,12 @@ const WhyChooseUs = () => {
                         mt-[12rem]
                         mr-[1.7rem]
                     ">
-                        <img src={keyImg} alt="Key Image" loading="lazy" className="w-full scale-[1.2]" />
+                        <img src={keyImg} alt="Key Image" loading="lazy" className="
+                            w-full 
+                            scale-[1.2]
+                            shadow-[0_5px_15px_0px_rgba(0,0,0,0.15)]
+                            rounded-[50px]
+                        " />
                     </div>
                 </div>
             </section>

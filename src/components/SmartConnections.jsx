@@ -48,7 +48,10 @@ const SmartConnections = () => {
                         smartConnectionsContent.map((item, index) => (
                             <div className="
                                 w-[31%]
-                                px-[1rem]
+                                p-[1.2rem]
+                                border
+                                rounded-[12px]
+                                shadow-[0_1px_4px_rgba(0,0,0,0.16)]
 
                             " key={index}>
                                 <span className="
