@@ -1,4 +1,5 @@
 import ContactDetails from "../components/ContactDetails"
+import ContactMap from "../components/ContactMap"
 
 const Contact = () => {
     return (
@@ -32,6 +33,9 @@ const Contact = () => {
 
             {/* Contact Details */}
             <ContactDetails />
+
+            {/* Contact Map */}
+            <ContactMap />
         </>
     )
 }
