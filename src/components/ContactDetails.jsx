@@ -23,7 +23,7 @@ const contactData = [
     },
     {
         id: 3,
-        title: "Emails",
+        title: "Email Us",
         items: [
             {
                 value: "info@weconnectworldwide.com",
@@ -33,7 +33,7 @@ const contactData = [
     },
     {
         id: 4,
-        title: "Socials Media",
+        title: "Social Media",
         socials: [
             { icon: <FaInstagram />, link: "https://instagram.com" },
             { icon: <FaFacebookF />, link: "https://facebook.com" },
@@ -52,10 +52,10 @@ const ContactDetails = () => {
                 d-flex flex-wrap justify-between
             ">
                 <div className="
-                    w-[45%]
+                    w-[50%]
                 ">
                     <h2 className="
-                        text-[3rem]
+                        text-[3.5rem]
                         text-[#0764f9]
                         font-[600]
                     ">
@@ -98,12 +98,12 @@ const ContactDetails = () => {
                                             text-[1.1rem] 
                                             mb-[0.5rem]
                                         ">
-                                            {data.label && 
-                                            <b className="
+                                            {data.label &&
+                                                <b className="
                                                 text-[1.1rem]
                                             ">
-                                                {data.label} :
-                                            </b>}
+                                                    {data.label} :
+                                                </b>}
                                             <a
                                                 href={data.link}
                                                 className="
@@ -114,7 +114,7 @@ const ContactDetails = () => {
                                                 {data.value}
                                             </a>
                                         </p>
-                                ))}
+                                    ))}
 
                                 {/* Social icons */}
                                 {item.socials && (
@@ -125,10 +125,15 @@ const ContactDetails = () => {
                                     ">
                                         {item.socials.map((social, i) => (
                                             <a key={i} href={social.link} target="_blank" rel="noopener noreferrer" className="
-                                                text-[#0764f9]
-                                                text-[1.6rem]
-                                                hover:scale-110
+                                                text-[#fff]
+                                                text-[1.2rem]
+                                                bg-[#0764f9]
+                                                hover:bg-[#0459e2]
                                                 transition
+                                                w-[35px]
+                                                h-[35px]
+                                                rounded-full
+                                                d-flex justify-center items-center
                                             ">
                                                 {social.icon}
                                             </a>
@@ -140,7 +145,7 @@ const ContactDetails = () => {
                     </div>
                 </div>
                 <div className="
-                    w-[48%]
+                    w-[44%]
                 ">
                     <ContactForm />
                 </div>

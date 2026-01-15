@@ -4,7 +4,8 @@ const ContactForm = () => {
         <>
             <div className="
                 bg-[#0764f9]
-                p-[3rem]
+                pt-[2rem]
+                p-[2.5rem]
                 rounded-[40px]
             ">
                 <span className="
