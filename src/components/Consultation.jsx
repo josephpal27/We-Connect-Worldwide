@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 const Consultation = () => {
     return (
@@ -24,7 +25,7 @@ const Consultation = () => {
                 ">
                     Through thoughtful collaboration, we help brands move forward with clarity, confidence, and consistency.
                 </p>
-                <button className="
+                <Link to="/contact" className="
                     text-[#0764f9] bg-[#fff] rounded-[40px] font-[700]
                     py-[1.2rem]
                     px-[2.5rem]
@@ -36,7 +37,7 @@ const Consultation = () => {
                     transition
                 ">
                     Schedule a Consultation
-                </button>
+                </Link>
 
             </section>
         </>

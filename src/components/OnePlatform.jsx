@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import handshake from '../assets/images/handshake.png';
 
 const OnePlatform = () => {
@@ -29,7 +30,8 @@ const OnePlatform = () => {
                     ">
                         Technology solutions, business services, and visa & passport assistance—unified in one connected ecosystem.
                     </p>
-                    <button className="
+                    <Link to="/services" className="
+                        d-block
                         w-max 
                         bg-[#0764f9]
                         text-[#fff] 
@@ -42,7 +44,7 @@ const OnePlatform = () => {
                         hover:bg-[#0459e2] hover:translate-y-[-5px]
                         shadow-[0_5px_15px_rgba(0,0,0,0.35)]
                         transition
-                    ">Explore Services</button>
+                    ">Explore Services</Link>
                 </div>
             </section>
         </>
