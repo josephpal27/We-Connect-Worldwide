@@ -4,6 +4,7 @@ import OnePlatform from "../components/OnePlatform"
 import OurServices from "../components/OurServices"
 import SmartConnections from "../components/SmartConnections"
 import Testimonials from "../components/Testimonials"
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -33,7 +34,7 @@ const Home = () => {
           ">
             From high-performance technology and cybersecurity to trusted visa and passport services, we enable seamless connectivity, secure systems, and global mobility.
           </p>
-          <button className="
+          <Link to="/services" className="
             w-max 
             bg-[#fff]
             text-[#0764f9] 
@@ -48,7 +49,7 @@ const Home = () => {
             transition
           ">
             Explore Services
-          </button>
+          </Link>
         </div>
       </section>
 
