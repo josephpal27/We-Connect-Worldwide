@@ -40,29 +40,32 @@
 /* Media Queries */
 @media (max-width: 992px) {
   .navbar {
-    padding: 0.5rem 1rem !important;
+    padding: 1rem 1rem !important;
   }
   .navbar .nav-brand img {
-    width: 55px;
+    width: 100px;
   }
   .navbar-toggler {
     border: none !important;
     box-shadow: none !important;
   }
   .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
   .offcanvas {
-    background: #260a42;
+    background: #0764f9;
     width: 70% !important;
   }
   .offcanvas .offCanvasLogo {
-    width: 55px;
+    width: 130px;
+    background-color: #fff;
+    padding: 0.8rem 1rem;
+    border-radius: 7px;
   }
   .offcanvas .nav-link {
     color: #fff !important;
     margin: 0.5rem 0;
-    font-size: calc(0.9rem + 0.5vw);
+    font-size: calc(1rem + 0.5vw);
     font-weight: 600;
     width: max-content;
   }
@@ -71,21 +74,16 @@
   }
   .offcanvas .get-in-touch-btn {
     background-color: #fff;
-    color: #2e0e4f;
+    color: #0764f9;
     text-decoration: none;
     padding: 0.55rem 1.1rem;
-    border-radius: 6px;
-    font-weight: 550;
-    font-size: calc(0.9rem + 0.5vw);
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: calc(1rem + 0.5vw);
     transition: all 0.3s ease;
     margin-top: 1.5rem;
     display: block;
     width: max-content;
-  }
-  .offcanvas .get-in-touch-btn:active{
-    background-color: #2a0d47;
-    color: #fff;
-    box-shadow: rgba(255, 255, 255, 0.278) 0px 3px 8px;
   }
 }
 
