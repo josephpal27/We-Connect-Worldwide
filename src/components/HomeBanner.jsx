@@ -52,7 +52,7 @@ const HomeBanner = () => {
             py-[1rem] lg:py-[0.8rem] xl:py-[0.9rem] 2xl:py-[1rem]
             rounded-[30px] 
             mt-[2rem] lg:mt-[1.5rem] xl:mt-[1.8rem] 2xl:mt-[2rem]
-            hover:bg-[#0764f9] hover:text-[#fff] hover:translate-y-[-5px]
+            hover:translate-y-[-5px]
             shadow-[0_5px_15px_rgba(0,0,0,0.35)]
             transition
           "
