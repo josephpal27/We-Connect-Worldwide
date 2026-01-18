@@ -88,17 +88,17 @@
 }
 
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
-  .navbar {
+  .navbar{
     padding: 1.2rem 7% !important;
   }
-  .navbar .nav-brand img {
+  .navbar .nav-brand img{
     width: 107px;
   }
-  .navbar .nav-link {
+  .navbar .nav-link{
     font-size: calc(0.6rem + 0.5vw);
     margin: 0 1.4rem;
   }
-  .navbar .get-in-touch-btn {
+  .navbar .get-in-touch-btn{
     padding: 0.55rem 1.6rem;
     font-size: calc(0.5rem + 0.5vw);
   }
