@@ -24,8 +24,7 @@ const HomeBanner = () => {
             mt-[1rem] lg:mt-[0.5rem] xl:mt-[0.8rem] 2xl:mt-[1rem]
           "
           >
-            Connecting <span>Businesses</span> <br /> and People Through{" "}
-            <span>Smart Solutions</span>
+            Connecting <span>Businesses</span> <br /> and People Through <span>Smart Solutions</span>
           </h1>
           <p
             className="
