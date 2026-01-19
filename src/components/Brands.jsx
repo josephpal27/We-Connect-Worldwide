@@ -19,7 +19,7 @@ const Brands = () => {
                 d-flex justify-between
                 px-[7%]
                 py-[4rem]
-                bg-[]
+                bg-gradient-to-b from-[#eee] from-[10%] to-[#f9f9f9] to-[60%]
             ">
                 {
                     brandsData.map((item, index) => (

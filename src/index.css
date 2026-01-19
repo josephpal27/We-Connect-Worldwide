@@ -40,9 +40,6 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
 
 
 /* Brands Start */
-.brands{
-  background: linear-gradient(to bottom, #eee 10%, #f9f9f9 60%);
-}
 .brands .brand-image:nth-child(3){
   scale: 1.05;
 }

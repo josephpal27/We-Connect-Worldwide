@@ -6,7 +6,7 @@ const OnePlatform = () => {
         <>
             <section className="
                 px-[7%]
-                py-[6rem]
+                py-[3rem] lg:py-[5rem] xl:py-[5.5rem] 2xl:py-[6rem]
                 d-flex justify-between items-center flex-wrap
             ">
                 <div className="
@@ -22,13 +22,13 @@ const OnePlatform = () => {
                     w-[45%]
                 ">
                     <h4 className="
-                        text-[4rem]
+                        text-[1rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem]
                     ">
                         One Platform. <br /> <span className="text-[#0764f9]">Unlimited Reach.</span>
                     </h4>
                     <p className="
-                        text-[1.3rem]
-                        mt-[1.5rem]
+                        text-[1.3rem] lg:text-[1.05rem] xl:text-[1.2rem] 2xl:text-[1.3rem]
+                        mt-[1.5rem] lg:mt-[1.3rem] xl:mt-[1.4rem] 2xl:mt-[1.5rem]
                         font-[500]
                         text-[#000]
                     ">
