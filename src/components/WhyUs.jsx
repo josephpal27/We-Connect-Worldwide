@@ -13,7 +13,7 @@ const WhyUs = () => {
         <>
             <section className="
                 px-[7%]
-                py-[6rem]
+                py-[3rem] lg:py-[5rem] xl:py-[5.5rem] 2xl:py-[6rem]
                 d-flex justify-between items-center flex-wrap
             ">
                 <div className="
@@ -29,22 +29,22 @@ const WhyUs = () => {
                     w-[45%]
                 ">
                     <h3 className="
-                        text-[4rem]
+                        text-[1rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem]
                         font-[600]
                     ">
                         Why our service <br /> <span className="text-[#0764f9]">Key Points of the Services</span>
                     </h3>
                     <p className="
-                        text-[1.3rem]
-                        mt-[1.5rem]
+                        text-[1.3rem] lg:text-[1.05rem] xl:text-[1.2rem] 2xl:text-[1.3rem]
+                        mt-[1.5rem] lg:mt-[1.3rem] xl:mt-[1.4rem] 2xl:mt-[1.5rem]
                         font-[500]
                         text-[#000]
                     ">
                         We believe strong businesses are built on reliability, understanding, and long-term thinking. Our approach is not just about delivering solutions, but about working closely with you to understand your goals and challenges.
                     </p>
                     <p className="
-                        text-[1.3rem]
-                        mt-[1.5rem]
+                        text-[1.3rem] lg:text-[1.05rem] xl:text-[1.2rem] 2xl:text-[1.3rem]
+                        mt-[1.5rem] lg:mt-[1.3rem] xl:mt-[1.4rem] 2xl:mt-[1.5rem]
                         font-[500]
                         text-[#000]
                     " style={textShow ? {display: 'block'} : {display: 'none'}}>
