@@ -7,7 +7,7 @@ const BuildTrust = () => {
                 d-flex justify-between items-center flex-wrap
                 bg-[#eaeaea]
                 px-[7%]
-                py-[5rem]
+                py-[3rem] lg:py-[4rem] xl:py-[4.5rem] 2xl:py-[5rem]
                 relative
             ">
                 <div className="">
@@ -20,23 +20,23 @@ const BuildTrust = () => {
                     w-[55%]
                 ">
                     <h5 className="
-                        text-[4rem]
+                        text-[1rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem]
                         text-[#0764f9]
                         font-[600]
                     ">
                         Build trust <br /> through <span>real stories.</span>
                     </h5>
                     <p className="
-                        text-[1.2rem]
-                        mt-[1.5rem]
+                        text-[1.2rem] lg:text-[0.95rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
+                        mt-[1.5rem] lg:mt-[1.3rem] xl:mt-[1.4rem] 2xl:mt-[1.5rem]
                         font-[500]
                         text-[#000]
                     ">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                     <p className="
-                        text-[1.2rem]
-                        mt-[1rem]
+                        text-[1.2rem] lg:text-[0.95rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
+                        mt-[1.5rem] lg:mt-[1.3rem] xl:mt-[1.4rem] 2xl:mt-[1.5rem]
                         font-[500]
                         text-[#000]
                     ">
