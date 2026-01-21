@@ -123,4 +123,22 @@ footer a{
 footer a:hover{
   text-decoration: underline;
 }
+
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+  footer a{
+    font-size: 1.05rem;
+    margin-bottom: 0.45rem;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+  footer a{
+    font-size: 0.95rem;
+    margin-bottom: 0.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    
+}
 /* Footer End */

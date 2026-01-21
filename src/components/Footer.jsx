@@ -22,7 +22,7 @@ const Footer = () => {
                             rounded-[8] lg:rounded-[6px] xl:rounded-[8px] 2xl:rounded-[10px]
                             mt-[0.5rem] lg:mt-[0.4rem] xl:mt-[0.45rem] 2xl:mt-[0.5rem]
                         "> 
-                            <img src={logo} alt="Logo" loading="lazy" className="w-[120px]" />
+                            <img src={logo} alt="Logo" loading="lazy" className="w-[100] lg:w-[95px] xl:w-[110px] 2xl:w-[120px]" />
                         </div>
                         <p className="
                             mt-[2rem] lg:mt-[1.8rem] xl:mt-[1.9rem] 2xl:mt-[2rem] 
