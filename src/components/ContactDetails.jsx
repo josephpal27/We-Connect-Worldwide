@@ -48,7 +48,7 @@ const ContactDetails = () => {
         <>
             <section className="
                 px-[7%]
-                py-[5rem]
+                py-[3rem] lg:py-[4rem] xl:py-[4.5rem] 2xl:py-[5rem]
                 d-flex flex-wrap justify-between
             ">
                 <div className="
