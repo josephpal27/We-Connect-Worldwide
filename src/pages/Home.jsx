@@ -10,17 +10,11 @@ const Home = () => {
   return (
     <>
       <HomeBanner />
-
       <SmartConnections />
-
       <OurServices />
-
       <Brands />
-
       <OnePlatform />
-
       <Testimonials />
-
       <Consultation />
     </>
   )

@@ -33,6 +33,12 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
   font-weight: normal;
 }
 
+@media screen and (max-width: 640px) {
+  h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
+    color: #fff;
+  }
+}
+
 
 /* Brands Start */
 .brands .brand-image:nth-child(3){
@@ -55,7 +61,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
     
 }
 /* Brands End */
@@ -86,7 +92,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
     
 }
 /* Testimonials End */
@@ -142,7 +148,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
     
 }
 /* Contact Form End */
@@ -171,7 +177,7 @@ footer a:hover{
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
     
 }
 /* Footer End */
