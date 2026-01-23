@@ -18,7 +18,7 @@ const Brands = () => {
                 brands
                 d-flex justify-between
                 px-[7%]
-                py-[4rem]
+                py-[3rem] lg:py-[3rem] xl:py-[3.5rem] 2xl:py-[4rem]
                 bg-gradient-to-b from-[#eee] from-[10%] to-[#f9f9f9] to-[60%]
             ">
                 {
@@ -29,8 +29,8 @@ const Brands = () => {
                             d-flex justify-center
                         ">
                             <img src={item.image} alt="Brand Logo" loading="lazy" className="
-                                w-[200px]
-                                h-[50px]
+                                w-[200px] lg:w-[180px] xl:w-[190px] 2xl:w-[200px]
+                                h-[50px] lg:h-[40px] xl:h-[45px] 2xl:h-[50px]
                                 object-contain
                             " />
                         </div>
