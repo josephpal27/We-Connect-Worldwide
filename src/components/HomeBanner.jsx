@@ -9,14 +9,14 @@ const HomeBanner = () => {
           alt="Home Banner"
           className="
           w-[100%] object-cover
-          h-[auto] lg:h-[88vh] xl:h-[88vh] 2xl:h-[88vh]
+          h-[auto] sm:h-[88vh]
         "
         />
         <div
           className="
           relative sm:absolute
           top-0 left-0 w-[100%] h-[100%] d-flex flex-col justify-center sm:bg-[#0155dc56]
-          px-[1rem] sm:px-[5%] lg:px-[7%] xl:px-[7%] 2xl:px-[7%]
+          px-[1rem] sm:px-[5%] lg:px-[7%]
         "
         >
           <h1
@@ -31,7 +31,7 @@ const HomeBanner = () => {
           </h1>
           <p
             className="
-            w-[100%] lg:w-[45%] xl:w-[45%] 2xl:w-[45%]
+            w-[100%] sm:w-[45%]
             text-[#000] sm:text-[#fff] 
             text-[1.1rem] sm:text-[1.2rem] lg:text-[0.95rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
             font-[600] 
