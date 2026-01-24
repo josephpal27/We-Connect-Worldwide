@@ -21,49 +21,50 @@ const SmartConnections = () => {
     return (
         <>
             <section className="
-                py-[2rem] lg:py-[4rem] xl:py-[4.5rem] 2xl:py-[5rem]
-                px-[7%]
+                py-[2.5rem] sm:py-[2rem] lg:py-[4rem] xl:py-[4.5rem] 2xl:py-[5rem]
+                px-[1rem] sm:px-[5%] lg:px-[7%]
             ">
                 <h2 className="
                     text-center
-                    text-[1rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem]
+                    text-[1.3rem] sm:text-[1rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem]
                 ">
-                    We Build <span>Smart Connections</span> for the <br /> <span className="text-[#0764f9]">Future of Business</span>
+                    We Build <span className="text-[#000]">Smart Connections</span> for the <br /> <span className="text-[#0764f9]">Future of Business</span>
                 </h2>
                 <p className="
                     text-[#000] 
-                    text-[1.3rem] lg:text-[1.05rem] xl:text-[1.2rem] 2xl:text-[1.3rem]
+                    text-[1.1rem] sm:text-[1.3rem] lg:text-[1.05rem] xl:text-[1.2rem] 2xl:text-[1.3rem]
                     font-[500] 
                     text-center
-                    w-[50%]
+                    w-[100%] sm:w-[50%]
                     mx-auto
-                    mt-[1rem]
+                    mt-[0.7rem] sm:mt-[1rem]
                 ">
                     We Connect is a leading B2B service provider delivering integrated tech and business solutions to keep your operations secure, connected, and future-ready.
                 </p>
                 <div className="
                     d-flex justify-between flex-wrap
-                    mt-[3rem] lg:mt-[2.6rem] xl:mt-[2.8rem] 2xl:mt-[3rem]
+                    mt-[1.5rem] sm:mt-[3rem] lg:mt-[2.6rem] xl:mt-[2.8rem] 2xl:mt-[3rem]
                 ">
                     {
                         smartConnectionsContent.map((item, index) => (
                             <div className="
-                                w-[31%]
-                                p-[1rem] lg:p-[1rem] xl:p-[1.1rem] 2xl:p-[1.2rem]
+                                w-[100%] sm:w-[31%] 
+                                p-[0.6rem] sm:p-[1rem] lg:p-[1rem] xl:p-[1.1rem] 2xl:p-[1.2rem]
                                 border
                                 rounded-[12px]
                                 shadow-[0_1px_4px_rgba(0,0,0,0.16)]
+                                mb-[1rem] sm:mb-[0]
 
                             " key={index}>
                                 <span className="
                                     d-block text-center text-[#0764f9] font-[600]
-                                    text-[2rem] lg:text-[1.8rem] xl:text-[1.9rem] 2xl:text-[2rem]
+                                    text-[1.5rem] sm:text-[2rem] lg:text-[1.8rem] xl:text-[1.9rem] 2xl:text-[2rem]
                                 ">
                                     {item.title}
                                 </span>
                                 <p className="
                                     text-center text-[#000] font-[500]
-                                    text-[1.2rem] lg:text-[0.95rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
+                                    text-[1.1rem] sm:text-[1.2rem] lg:text-[0.95rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
                                     mt-[0.5rem] lg:mt-[0.4rem] xl:mt-[0.45rem] 2xl:mt-[0.5rem]
                                 ">
                                     {item.desc}
