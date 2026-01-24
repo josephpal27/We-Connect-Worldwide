@@ -26,6 +26,7 @@ const SmartConnections = () => {
             ">
                 <h2 className="
                     text-center
+                    font-[600] sm:font-[500]
                     text-[1.3rem] sm:text-[1rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem]
                 ">
                     We Build <span className="text-[#000]">Smart Connections</span> for the <br /> <span className="text-[#0764f9]">Future of Business</span>
