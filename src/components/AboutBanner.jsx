@@ -23,7 +23,7 @@ const AboutBanner = () => {
                     </h1>
                     <p className="
                         w-[100%] sm:w-[55%]
-                        text-[#000] sm:text-[#fff] font-[600] 
+                        text-[#000] sm:text-[#fff]  font-[500] sm:font-[600]
                         text-[1.1rem] sm:text-[1.2rem] lg:text-[0.95rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
                         mt-[1.85rem] sm:mt-[1rem] lg:mt-[0.5rem] xl:mt-[0.8rem] 2xl:mt-[1rem]
                     ">

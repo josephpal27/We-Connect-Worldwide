@@ -34,7 +34,7 @@ const HomeBanner = () => {
             w-[100%] sm:w-[45%]
             text-[#000] sm:text-[#fff] 
             text-[1.1rem] sm:text-[1.2rem] lg:text-[0.95rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
-            font-[600] 
+            font-[500] sm:font-[600]
             mt-[2rem] lg:mt-[1.5rem] xl:mt-[1.8rem] 2xl:mt-[2rem]
           "
           >
