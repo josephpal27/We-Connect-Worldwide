@@ -14,7 +14,7 @@ const ServicesSlider = ({ servicesData }) => {
                 centeredSlides={true}
                 loop={true}
                 grabCursor={true}
-                spaceBetween={0}
+                spaceBetween={20}
                 speed={1000}
                 autoplay={{
                     delay: 3000,
