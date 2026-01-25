@@ -1,3 +1,5 @@
+import ServicesSlider from "./ServicesSlider"
+import { servicesData } from "../data/servicesData"
 
 const OurServices = () => {
     return (
@@ -24,7 +26,7 @@ const OurServices = () => {
                 </p>
 
                 <div className="services-slider">
-                    
+                    <ServicesSlider servicesData={servicesData} />
                 </div>
             </section>
         </>
