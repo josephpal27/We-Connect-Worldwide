@@ -1,5 +1,5 @@
 import ServicesSlider from "./ServicesSlider"
-import { servicesData } from "../data/servicesData"
+import { servicesHelpsData } from "../data/servicesHelpsData"
 
 const ServiceHelps = () => {
     return (
@@ -7,8 +7,7 @@ const ServiceHelps = () => {
             <section className="
                 pt-[0.5rem] sm:pt-[0.5rem] lg:pt-[0.3rem] xl:pt-[0.4rem] 2xl:pt-[0.5rem]
                 px-[7%]
-                pb-[0.5rem] sm:pb-[0.5rem] lg:pb-[0.3rem] xl:pb-[0.4rem] 2xl:pb-[15rem]
-                bg-red-200
+                pb-[15rem] sm:pb-[15rem] lg:pb-[16rem] xl:pb-[17rem] 2xl:pb-[18rem]
             ">
                 <h3 className="
                     text-center text-[#0764f9] font-[600]
@@ -27,7 +26,7 @@ const ServiceHelps = () => {
                 </p>
 
                 <div className="services-slider">
-                    <ServicesSlider servicesData={servicesData} />
+                    <ServicesSlider servicesData={servicesHelpsData} />
                 </div>
             </section>
         </>
