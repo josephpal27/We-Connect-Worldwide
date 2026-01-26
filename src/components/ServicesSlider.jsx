@@ -53,13 +53,13 @@ const ServicesSlider = ({ servicesData }) => {
                                     }} className="
                                         text-center text-[#0764f9] font-[600]
                                         d-block
-                                        text-[1.3rem] lg:text-[1.05rem] xl:text-[1.2rem] 2xl:text-[1.3rem]
-                                        mt-[1.5rem]
+                                        text-[1.3rem] lg:text-[1rem] xl:text-[1.15rem] 2xl:text-[1.3rem]
+                                        mt-[1.5rem] sm:mt-[1.5rem] lg:mt-[1.1rem] xl:mt-[1.3rem] 2xl:mt-[1.5rem]
                                     " />
                                     <p className="
                                         text-center
-                                        text-[1.1rem] sm:text-[1.2rem] lg:text-[0.95rem] xl:text-[1.1rem] 2xl:text-[1rem]
-                                        mt-[0.8rem]
+                                        text-[0.8rem] sm:text-[0.8rem] lg:text-[0.8rem] xl:text-[0.9rem] 2xl:text-[1rem]
+                                        mt-[1rem] sm:mt-[8rem] lg:mt-[0.6rem] xl:mt-[0.7rem] 2xl:mt-[0.8rem]
                                     ">
                                         {item.desc}
                                     </p>
