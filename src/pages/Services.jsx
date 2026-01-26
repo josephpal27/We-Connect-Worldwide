@@ -1,5 +1,6 @@
 import BuildTrust from "../components/BuildTrust"
 import OurServices from "../components/OurServices"
+import ServiceHelps from "../components/ServiceHelps"
 import ServicesBanner from "../components/ServicesBanner"
 import WhyUs from "../components/WhyUs"
 
@@ -9,6 +10,7 @@ const Services = () => {
             <ServicesBanner />
             <OurServices />
             <WhyUs />
+            <ServiceHelps />
             <BuildTrust />
         </>
     )
