@@ -72,7 +72,7 @@ const ServicesSlider = ({ servicesData }) => {
             </Swiper>
 
             {/* Custom Pagination */}
-            <div className="custom-pagination"></div>
+            <div className="custom-pagination text-center"></div>
         </>
     )
 }

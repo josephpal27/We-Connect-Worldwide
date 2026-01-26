@@ -39,6 +39,33 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
   }
 }
 
+/* Swiper Paginations Start */
+.swiper-pagination-bullet {
+  margin: 0 5px !important;
+  width: 8px !important;
+  height: 8px !important;
+}
+
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+  .swiper-pagination-bullet {
+    margin: 0 4.5px !important;
+    width: 7.5px !important;
+    height: 7.5px !important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+  .swiper-pagination-bullet {
+    margin: 0 4px !important;
+    width: 7px !important;
+    height: 7px !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+    
+}
+/* Swiper Paginations End */
 
 /* Brands Start */
 .brands .brand-image:nth-child(3){
