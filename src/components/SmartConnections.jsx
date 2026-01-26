@@ -21,7 +21,7 @@ const SmartConnections = () => {
     return (
         <>
             <section className="
-                py-[2.5rem] sm:py-[2rem] lg:py-[4rem] xl:py-[4.5rem] 2xl:py-[5rem]
+                pt-[2.5rem] sm:pt-[2rem] lg:pt-[4rem] xl:pt-[4.5rem] 2xl:pt-[5rem]
                 px-[1rem] sm:px-[5%] lg:px-[7%]
             ">
                 <h2 className="
