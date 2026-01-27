@@ -70,6 +70,8 @@ const Testimonials = () => {
                                 relative
                                 overflow-hidden
                                 rounded-[50px] lg:rounded-[60px] xl:rounded-[65px] 2xl:rounded-[70px]
+                                shadow-[0_4px_15px_rgba(0,0,0,0.25)]
+                                hover:shadow-[0_4px_15px_#0764f96f]
                                 group
                             ">
                                 <img src={item.image} alt="Image" loading="lazy" />
