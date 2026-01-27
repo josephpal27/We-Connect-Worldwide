@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import logo from '../assets/images/logo/logo.png';
+import { FaInstagram, FaFacebookF, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -31,8 +32,16 @@ const Footer = () => {
                         ">
                             We Connect exists to make business journeys smoother and more connected. We work alongside brands to create solutions that feel aligned, effective, and future-ready.
                         </p>
-                        <div className="icons">
-                            {/* Will add later */}
+                        <div className="
+                            footer-icons
+                            d-flex
+                            mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
+                            gap-[0.5rem] lg:gap-[0.4rem] xl:gap-[0.5rem] 2xl:gap-[0.6rem]
+                        ">
+                            <a href="#" target="_blank"><FaInstagram /></a>
+                            <a href="#" target="_blank"><FaFacebookF /></a>
+                            <a href="#" target="_blank"><FaLinkedinIn /></a>
+                            <a href="#" target="_blank"><FaYoutube /></a>
                         </div>
                     </div>
                     <div className="

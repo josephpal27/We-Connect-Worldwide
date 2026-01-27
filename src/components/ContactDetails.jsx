@@ -1,5 +1,4 @@
 import ContactForm from './ContactForm'
-
 import { FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
 const contactData = [

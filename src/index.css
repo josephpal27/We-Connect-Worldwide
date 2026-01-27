@@ -189,6 +189,21 @@ footer a{
 footer a:hover{
   text-decoration: underline;
 }
+footer .footer-icons a{
+  background-color: #fff;
+  color: #0664f8;
+  width: 37px;
+  height: 37px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  transition: all 0.2s ease;
+}
+footer .footer-icons a:hover{
+  transform: translateY(-2px);
+}
 
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
   footer a{
