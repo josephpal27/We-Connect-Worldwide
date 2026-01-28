@@ -202,7 +202,7 @@ footer .footer-icons a{
   transition: all 0.2s ease;
 }
 footer .footer-icons a:hover{
-  transform: translateY(-2px);
+  transform: translateY(-3px);
 }
 
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
@@ -210,12 +210,30 @@ footer .footer-icons a:hover{
     font-size: 1.05rem;
     margin-bottom: 0.45rem;
   }
+  footer .footer-icons a{
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+  }
+  footer .footer-icons a:hover{
+    transform: translateY(-2.5px);
+  }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
   footer a{
     font-size: 0.95rem;
     margin-bottom: 0.4rem;
+  }
+  footer .footer-icons a{
+    width: 27px;
+    height: 27px;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  footer .footer-icons a:hover{
+    transform: translateY(-2px);
   }
 }
 
