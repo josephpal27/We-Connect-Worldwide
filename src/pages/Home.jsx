@@ -4,7 +4,7 @@ import HomeBanner from "../components/HomeBanner"
 import OnePlatform from "../components/OnePlatform"
 import OurServices from "../components/OurServices"
 import SmartConnections from "../components/SmartConnections"
-import Testimonials from "../components/Testimonials"
+// import Testimonials from "../components/Testimonials"
 
 const Home = () => {
   return (
@@ -14,7 +14,7 @@ const Home = () => {
       <OurServices />
       <Brands />
       <OnePlatform />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Consultation />
     </>
   )

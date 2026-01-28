@@ -12,7 +12,7 @@ const BuildTrust = () => {
             ">
                 <div className="">
                     <img src={man} alt="Image" loading="lazy" className="
-                        w-[29%]
+                        w-[27%]
                         absolute bottom-0
                     " />
                 </div>
@@ -32,15 +32,7 @@ const BuildTrust = () => {
                         font-[500]
                         text-[#000]
                     ">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                    <p className="
-                        text-[1.2rem] lg:text-[0.95rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
-                        mt-[1.5rem] lg:mt-[1.3rem] xl:mt-[1.4rem] 2xl:mt-[1.5rem]
-                        font-[500]
-                        text-[#000]
-                    ">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        We believe trust comes from transparency and real experiences. Our people share stories shaped by hands-on work and honest outcomes. No exaggeration, just real journeys and real impact.
                     </p>
                 </div>
             </section>
