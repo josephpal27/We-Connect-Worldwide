@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import handshake from '../assets/images/handshake.png';
+import handshake from '../assets/images/handshake.avif';
 
 const OnePlatform = () => {
     return (

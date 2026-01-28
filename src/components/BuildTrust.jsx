@@ -1,4 +1,4 @@
-import man from '../assets/images/man.png';
+import man from '../assets/images/man.avif';
 
 const BuildTrust = () => {
     return (

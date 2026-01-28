@@ -1,5 +1,5 @@
-import userM from '../assets/images/team/user-m.jpg';
-import userF from '../assets/images/team/user-f.jpg';
+import userM from '../assets/images/team/user-m.avif';
+import userF from '../assets/images/team/user-f.avif';
 
 let teamData = [
     {

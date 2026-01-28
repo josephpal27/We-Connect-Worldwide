@@ -5,7 +5,7 @@ const HomeBanner = () => {
     <>
       <section className="relative">
         <img
-          src="/images/home-banner.png"
+          src="/images/home-banner.avif"
           alt="Home Banner"
           className="
           w-[100%] object-cover

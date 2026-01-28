@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import handshake from '../assets/images/handshake-2.png';
+import handshake from '../assets/images/handshake-2.avif';
 
 const WhyUs = () => {
 

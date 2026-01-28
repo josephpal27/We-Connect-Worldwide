@@ -7,7 +7,7 @@ const Consultation = () => {
                 py-[3rem] lg:py-[4rem] xl:py-[4.5rem] 2xl:py-[5rem]
                 px-[7%]
                 mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
-                bg-[url('/images/consultation-bg.png')] bg-cover
+                bg-[url('/images/consultation-bg.avif')] bg-cover
                 d-flex flex-col items-center justify-center
             ">
                 <h6 className="

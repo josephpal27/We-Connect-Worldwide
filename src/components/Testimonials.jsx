@@ -1,7 +1,7 @@
-import person1 from '../assets/images/testimonials/1.png';
-import person2 from '../assets/images/testimonials/2.png';
-import person3 from '../assets/images/testimonials/3.png';
-import person4 from '../assets/images/testimonials/4.png';
+import person1 from '../assets/images/testimonials/1.avif';
+import person2 from '../assets/images/testimonials/2.avif';
+import person3 from '../assets/images/testimonials/3.avif';
+import person4 from '../assets/images/testimonials/4.avif';
 
 let testimonialsData = [
     {

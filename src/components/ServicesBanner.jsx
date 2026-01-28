@@ -4,7 +4,7 @@ const ServicesBanner = () => {
     return (
         <>
             <section className="relative">
-                <img src="/images/services-banner.png" alt="Services Banner" className="
+                <img src="/images/services-banner.avif" alt="Services Banner" className="
                     w-[100%] object-cover
                     h-[auto] sm:h-[88vh]
                 " />
