@@ -70,9 +70,10 @@ const Footer = () => {
                             ">
                                 Contact Info
                             </span>
-                            <a href="#">example@gmail.com</a>
-                            <a href="#">+00 1234567890</a>
-                            <a href="#">Address</a>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@weconnectworldwide.com" target="_blank">info@weconnectworldwide.com</a>
+                            <a href="#">212-763-3310 (For Visa)</a>
+                            <a href="#">212-222-0992 (For b2b)</a>
+                            <a href="https://maps.app.goo.gl/cEYAHQ9hZV7bECNW8" target="_blank">117-20, Queens Blvd, 2nd Floor, <br /> Forest Hills, New York - 11375</a>
                         </div>
                     </div>
                 </div>

@@ -28,7 +28,7 @@ const ContactBanner = () => {
                         text-[1.1rem] sm:text-[1.2rem] lg:text-[0.95rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
                         mt-[1.85rem] sm:mt-[1rem] lg:mt-[0.5rem] xl:mt-[0.8rem] 2xl:mt-[1rem]
                     ">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Have a question? We’d love to hear from you.
                     </p>
                 </div>
             </section>

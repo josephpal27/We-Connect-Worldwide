@@ -19,7 +19,7 @@ const ContactForm = () => {
                     mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
                     text-[#eee]
                 ">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod consectetur tempor incididunt adipiscing ut labore et dolore magna aliqua.
+                    You’ll be heard by people who care and respond. <br /> Get in touch with our team.
                 </p>
                 <form action="" className="
                     contact-form

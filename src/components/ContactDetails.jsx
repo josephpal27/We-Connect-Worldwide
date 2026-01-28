@@ -15,8 +15,8 @@ const contactData = [
         title: "Location",
         items: [
             {
-                value: "Lorem ipsum is simply dummy text of the",
-                link: "https://maps.google.com",
+                value: "117-20, Queens Blvd, 2nd Floor, Forest Hills, New York - 11375",
+                link: "https://maps.app.goo.gl/aWr99Px4b3PjGvbg9",
             },
         ],
     },
@@ -26,7 +26,7 @@ const contactData = [
         items: [
             {
                 value: "info@weconnectworldwide.com",
-                link: "mailto:info@weconnectworldwide.com",
+                link: "https://mail.google.com/mail/?view=cm&fs=1&to=info@weconnectworldwide.com",
             },
         ],
     },
@@ -58,7 +58,7 @@ const ContactDetails = () => {
                         text-[#0764f9]
                         font-[600]
                     ">
-                        Lorem <span>ipsum dolor sit</span> amet, consectetur <span>adipiscing elit</span> sed do
+                        Get in touch for <span>support,</span> <span>queries,</span> or <span>collaborations.</span>
                     </h2>
                     <p className="
                         text-[1.2rem] lg:text-[0.95rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
@@ -66,7 +66,7 @@ const ContactDetails = () => {
                         font-[500]
                         text-[#000]
                     ">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        We believe great conversations start with listening. Our team is ready when you are.
                     </p>
                     <div className="
                         mt-[2rem] lg:mt-[2.6rem] xl:mt-[2.8rem] 2xl:mt-[3rem]
@@ -104,7 +104,7 @@ const ContactDetails = () => {
                                                     {data.label} :
                                                 </b>}
                                             <a
-                                                href={data.link}
+                                                href={data.link} target="_blank"
                                                 className="
                                                     text-[#000] font-[500]
                                                     hover:text-[#0764f9]

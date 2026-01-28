@@ -1,28 +1,27 @@
-import team1 from '../assets/images/team/1.png';
-import team2 from '../assets/images/team/2.png';
-import team3 from '../assets/images/team/3.png';
+import userM from '../assets/images/team/user-m.jpg';
+import userF from '../assets/images/team/user-f.jpg';
 
 let teamData = [
     {
         id: 1,
-        image: team1,
-        name: "John Elia",
+        image: userF,
+        name: "Tashi Palmo",
         designation: "(Team head)",
-        para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.",
+        para: "Brings strategic vision and hands-on expertise",
     },
     {
         id: 2,
-        image: team2,
-        name: "John Elia",
+        image: userM,
+        name: "Nishant Nick Garg",
         designation: "(Team head)",
-        para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.",
+        para: "Leads with clarity, experience, and purpose",
     },
     {
         id: 3,
-        image: team3,
-        name: "John Elia",
+        image: userF,
+        name: "Sonam Garg",
         designation: "(Team head)",
-        para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.",
+        para: "Focused on building quality at every level",
     },
 ]
 
@@ -50,7 +49,7 @@ const OurTeam = () => {
                         mt-[1rem] lg:mt-[0.6rem] xl:mt-[0.8rem] 2xl:mt-[1rem]
                         text-center
                     ">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        A team that works together with purpose and trust. <br /> Connected by values, driven by results.
                     </p>
                 </div>
                 <div className="
@@ -61,12 +60,13 @@ const OurTeam = () => {
                         teamData.map((item, index) => (
                             <div key={index} className="
                                 w-[31.5%]
-                                rounded-[50px] lg:rounded-[60px] xl:rounded-[65px] 2xl:rounded-[70px]
+                                rounded-[20px] lg:rounded-[20px] xl:rounded-[25px] 2xl:rounded-[30px]
                                 overflow-hidden
+                                shadow-[0_5px_15px_rgba(0,0,0,0.35)]
                             ">
-                                <div>
+                                <div className="px-[1rem] lg:p-[0.8rem] xl:p-[0.9rem] 2xl:p-[1rem]">
                                     <img src={item.image} alt="Team Member" loading="lazy" className="
-                                        w-full mt-[-2px]
+                                        w-full
                                     " />
                                 </div>
                                 <div className="
@@ -91,7 +91,7 @@ const OurTeam = () => {
                                     <p className="
                                         text-center
                                         mt-[0.7rem]
-                                        text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
+                                        text-[1rem] lg:text-[0.8rem] xl:text-[0.9rem] 2xl:text-[1rem]
                                     ">
                                         {item.para}
                                     </p>
