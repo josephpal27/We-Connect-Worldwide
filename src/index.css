@@ -248,6 +248,21 @@ footer .footer-icons a:hover{
 }
 
 @media screen and (max-width: 640px) {
-    
+  footer a{
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  footer .contact-info a .icn{
+    margin-top: 3px;
+  }
+  footer .footer-icons a{
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    font-size: 1.1rem;
+  }
+  footer .footer-icons a:hover{
+    transform: translateY(-2px);
+  }
 }
 /* Footer End */
