@@ -109,7 +109,7 @@ const ServiceHelps = () => {
                     </Swiper>
 
                     {/* Custom Pagination */}
-                    <div className="services-help-pagination text-center"></div>
+                    <div className="services-help-pagination text-center mt-[0.5rem] lg:mt-[0]"></div>
                 </div>
             </section>
         </>
