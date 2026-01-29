@@ -17,8 +17,8 @@ const Brands = () => {
             <section className="
                 brands
                 d-flex justify-between
-                px-[7%]
-                py-[3rem] lg:py-[3rem] xl:py-[3.5rem] 2xl:py-[4rem]
+                px-[1rem] sm:px-[5%] lg:px-[7%]
+                py-[1.5rem] sm:py-[3rem] lg:py-[3rem] xl:py-[3.5rem] 2xl:py-[4rem]
                 mt-[3rem] sm:mt-[5rem] lg:mt-[4rem] xl:mt-[4.5rem] 2xl:mt-[5rem]
                 bg-gradient-to-b from-[#eee] from-[10%] to-[#f9f9f9] to-[60%]
             ">

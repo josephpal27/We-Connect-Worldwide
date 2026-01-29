@@ -13,7 +13,7 @@ const OurServices = () => {
             ">
                 <h3 className="
                     text-center text-[#0764f9] font-[600]
-                    text-[1.6rem] sm:text-[2rem] lg:text-[2.7rem] xl:text-[3.1rem] 2xl:text-[3.5rem]
+                    text-[1.7rem] sm:text-[2rem] lg:text-[2.7rem] xl:text-[3.1rem] 2xl:text-[3.5rem]
                 ">
                     Services
                 </h3>

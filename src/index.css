@@ -89,7 +89,10 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
 }
 
 @media screen and (max-width: 640px) {
-    
+    .brands .brand-image:last-child{
+    scale: 1.1;
+    margin-top: -0.2rem;
+  }
 }
 /* Brands End */
 
