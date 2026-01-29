@@ -27,6 +27,7 @@ const HomeBanner = () => {
             font-[600] 
             mt-[-4.2rem] sm:mt-[1rem] lg:mt-[0.5rem] xl:mt-[0.8rem] 2xl:mt-[1rem]
           "
+            data-aos="fade-up"
           >
             Connecting <span>Businesses</span> <br /> and People Through <span>Smart Solutions</span>
           </h1>
@@ -38,6 +39,7 @@ const HomeBanner = () => {
             font-[500] sm:font-[600]
             mt-[2rem] lg:mt-[1.5rem] xl:mt-[1.8rem] 2xl:mt-[2rem]
           "
+            data-aos="fade"
           >
             From high-performance technology and cybersecurity to trusted visa
             and passport services, we enable seamless connectivity, secure

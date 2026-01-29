@@ -18,7 +18,9 @@ const AboutBanner = () => {
                         text-[1.7rem] sm:text-[1rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem]
                         text-[#fff] font-[600] 
                         mt-[-2.9rem] sm:mt-[1rem] lg:mt-[0.5rem] xl:mt-[0.8rem] 2xl:mt-[1rem]
-                    ">
+                    "
+                        data-aos="fade-up"
+                    >
                         About <span className="text-[#fff]">Us</span>
                     </h1>
                     <p className="
@@ -26,7 +28,9 @@ const AboutBanner = () => {
                         text-[#000] sm:text-[#fff]  font-[500] sm:font-[600]
                         text-[1.1rem] sm:text-[1.2rem] lg:text-[0.95rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
                         mt-[1.85rem] sm:mt-[1rem] lg:mt-[0.5rem] xl:mt-[0.8rem] 2xl:mt-[1rem]
-                    ">
+                    "
+                        data-aos="fade"
+                    >
                         We are a comprehensive B2B service provider committed to enabling businesses to operate smarter, faster, and more securely in an increasingly connected world. Our strength lies in delivering integrated business solutions that support communication, connectivity, security, mobility, financial operations, and digital transformation — all under one trusted umbrella.
                     </p>
                 </div>

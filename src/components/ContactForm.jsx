@@ -9,7 +9,9 @@ const ContactForm = () => {
                 rounded-[20px] sm:rounded-[40px]
                 mt-[1.2rem] sm:mt-[0]
                 mb-[0.5rem] sm:mb-[0]
-            ">
+            "
+                data-aos="fade-up" data-aos-once="true"
+            >
                 <span className="
                     text-[#fff] font-[700]
                     text-[1.5rem] sm:text-[1.8rem] lg:text-[1.6rem] xl:text-[1.7rem] 2xl:text-[1.8rem]

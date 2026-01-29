@@ -18,7 +18,9 @@ const ServicesBanner = () => {
                         text-[1.3rem] sm:text-[1rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem]
                         text-[#fff] font-[600] 
                         mt-[-5.7rem] sm:mt-[1rem] lg:mt-[0.5rem] xl:mt-[0.8rem] 2xl:mt-[1rem]
-                    ">
+                    "
+                        data-aos="fade-up"
+                    >
                         Powering Businesses <br /> with <span className="text-[#fff]">Reliable Connectivity</span> & <br /> <span className="text-[#fff]">Smart Solutions</span>
                     </h1>
                     <p className="
@@ -26,7 +28,9 @@ const ServicesBanner = () => {
                         text-[#000] sm:text-[#fff]  font-[500] sm:font-[600]
                         text-[1.1rem] sm:text-[1.2rem] lg:text-[0.95rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
                         mt-[1.8rem] sm:mt-[1rem] lg:mt-[0.5rem] xl:mt-[0.8rem] 2xl:mt-[1rem]
-                    ">
+                    "
+                        data-aos="fade"
+                    >
                         Supporting seamless operations and confident growth across every stage of business.
                     </p>
                 </div>

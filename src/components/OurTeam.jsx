@@ -39,7 +39,9 @@ const OurTeam = () => {
                     <h4 className="
                         text-[1.5rem] sm:text-[1rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem]
                         font-[600] text-[#0764f9]
-                    ">
+                    "
+                        data-aos="fade-up"
+                    >
                         Our Team
                     </h4>
                     <p className="
@@ -48,7 +50,9 @@ const OurTeam = () => {
                         w-full sm:w-[60%]
                         mt-[0.5rem] sm:mt-[1rem] lg:mt-[0.6rem] xl:mt-[0.8rem] 2xl:mt-[1rem]
                         text-center
-                    ">
+                    "
+                        data-aos="fade"
+                    >
                         A team that works together with purpose and trust. <br className="hidden sm:inline" /> Connected by values, driven by results.
                     </p>
                 </div>
@@ -64,7 +68,9 @@ const OurTeam = () => {
                                 overflow-hidden
                                 shadow-[0_5px_15px_rgba(0,0,0,0.35)]
                                 mb-[1.2rem] sm:mb-[0]
-                            ">
+                            "
+                                data-aos="fade"
+                            >
                                 <div className="px-[1rem] lg:p-[0.8rem] xl:p-[0.9rem] 2xl:p-[1rem]">
                                     <img src={item.image} alt="Team Member" loading="lazy" className="
                                         w-full

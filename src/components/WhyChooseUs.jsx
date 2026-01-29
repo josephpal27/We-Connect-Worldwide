@@ -38,14 +38,18 @@ const WhyChooseUs = () => {
                     <h3 className="
                         text-[1.5rem] sm:text-[1rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem]
                         font-[600] text-[#0764f9]
-                    ">
+                    "
+                        data-aos="fade-up"
+                    >
                         Why <br /> <span className="text-[#0764f9]">Choose Us</span>
                     </h3>
                     <ul className="
                         mt-[1rem] sm:mt-[2rem] lg:mt-[1.6rem] xl:mt-[1.8rem] 2xl:mt-[2rem]
                         list-disc
                         pl-[1rem] sm:pl-[0]
-                    ">
+                    "
+                        data-aos="fade"
+                    >
                         {
                             whyChooseUsData.map((item, index) => (
                                 <li key={index} className="

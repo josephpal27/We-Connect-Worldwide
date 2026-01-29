@@ -15,7 +15,9 @@ const ServiceHelps = () => {
                 <h3 className="
                     text-center text-[#0764f9] font-[600]
                     text-[1.6rem] sm:text-[2rem] lg:text-[2.7rem] xl:text-[3.1rem] 2xl:text-[3.5rem]
-                ">
+                "
+                    data-aos="fade-up"
+                >
                     Service Helps
                 </h3>
                 <p className="
@@ -24,11 +26,13 @@ const ServiceHelps = () => {
                     mt-[0.5rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
                     mx-auto
                     w-[100%] sm:w-[50%]
-                ">
+                "
+                    data-aos="fade"
+                >
                     Trust grows when experiences are real. We believe in sharing genuine stories that reflect meaningful partnerships, real outcomes, and the value of working together.
                 </p>
 
-                <div className="services-slider">
+                <div className="services-slider" data-aos="fade-up" data-aos-once="true">
                     <Swiper
                         modules={[Pagination, Autoplay]}
                         slidesPerView={4}

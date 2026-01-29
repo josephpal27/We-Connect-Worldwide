@@ -57,7 +57,9 @@ const ContactDetails = () => {
                         text-[1.5rem] sm:text-[2rem] lg:text-[2.7rem] xl:text-[3.1rem] 2xl:text-[3.5rem]
                         text-[#0764f9]
                         font-[600]
-                    ">
+                    "
+                        data-aos="fade"
+                    >
                         Get in touch for <span className="text-[#000]">support,</span> <span className="text-[#000]">queries,</span> or <span className="text-[#000]">collaborations.</span>
                     </h2>
                     <p className="
@@ -65,7 +67,9 @@ const ContactDetails = () => {
                         mt-[0.6rem] sm:mt-[1.5rem] lg:mt-[1.3rem] xl:mt-[1.4rem] 2xl:mt-[1.5rem]
                         font-[500]
                         text-[#000]
-                    ">
+                    "
+                        data-aos="fade"
+                    >
                         We believe great conversations start with listening. Our team is ready when you are.
                     </p>
                     <div className="
@@ -79,7 +83,9 @@ const ContactDetails = () => {
                                 border
                                 rounded-[12px]
                                 mb-[1rem] lg:mb-[1.05rem] xl:mb-[1.15rem] 2xl:mb-[1.25rem]
-                            ">
+                            "
+                                data-aos="fade" data-aos-once="true"
+                            >
                                 <span className="
                                     text-[#0764f9] 
                                     text-[1.3rem] sm:text-[1.3rem] lg:text-[1.05rem] xl:text-[1.2rem] 2xl:text-[1.3rem]

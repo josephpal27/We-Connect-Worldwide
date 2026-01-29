@@ -32,7 +32,9 @@ const WhyUs = () => {
                     <h3 className="
                         text-[1.4rem] sm:text-[1rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem]
                         font-[600]
-                    ">
+                    "
+                        data-aos="fade-up"
+                    >
                         Why our service <br /> <span className="text-[#0764f9]">Key Points of the Services</span>
                     </h3>
                     <p className="
@@ -40,7 +42,9 @@ const WhyUs = () => {
                         mt-[0.5rem] sm:mt-[1.5rem] lg:mt-[1.3rem] xl:mt-[1.4rem] 2xl:mt-[1.5rem]
                         font-[500]
                         text-[#000]
-                    ">
+                    "
+                        data-aos="fade"
+                    >
                         We believe strong businesses are built on reliability, understanding, and long-term thinking. Our approach is not just about delivering solutions, but about working closely with you to understand your goals and challenges.
                     </p>
                     <p className="
@@ -48,7 +52,7 @@ const WhyUs = () => {
                         mt-[0.5rem] sm:mt-[1.5rem] lg:mt-[1.3rem] xl:mt-[1.4rem] 2xl:mt-[1.5rem]
                         font-[500]
                         text-[#000]
-                    " style={textShow ? {display: 'block'} : {display: 'none'}}>
+                    " data-aos="fade" style={textShow ? {display: 'block'} : {display: 'none'}}>
                         By combining consistency with thoughtful execution, we help businesses operate smoothly and grow with confidence. Every partnership is guided by transparency, accountability, and a commitment to creating real, lasting value.
                     </p>
                     <button onClick={toggleText} className="

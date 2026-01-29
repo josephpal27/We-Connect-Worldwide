@@ -28,7 +28,9 @@ const Brands = () => {
                             brand-image
                             w-[20%]
                             d-flex justify-center
-                        ">
+                        "
+                            data-aos="zoom-in" data-aos-once="true"
+                        >
                             <img src={item.image} alt="Brand Logo" loading="lazy" className="
                                 w-[200px] lg:w-[180px] xl:w-[190px] 2xl:w-[200px]
                                 h-[50px] lg:h-[40px] xl:h-[45px] 2xl:h-[50px]

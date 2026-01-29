@@ -28,7 +28,9 @@ const SmartConnections = () => {
                     text-center
                     font-[600] sm:font-[500]
                     text-[1.4rem] sm:text-[1rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem]
-                ">
+                "
+                    data-aos="fade-up"
+                >
                     We Build <span className="text-[#000]">Smart Connections</span> for the <br /> <span className="text-[#0764f9]">Future of Business</span>
                 </h2>
                 <p className="
@@ -39,7 +41,9 @@ const SmartConnections = () => {
                     w-[100%] sm:w-[50%]
                     mx-auto
                     mt-[0.7rem] sm:mt-[1rem]
-                ">
+                "
+                    data-aos="fade"
+                >
                     We Connect is a leading B2B service provider delivering integrated tech and business solutions to keep your operations secure, connected, and future-ready.
                 </p>
                 <div className="
@@ -56,7 +60,10 @@ const SmartConnections = () => {
                                 shadow-[0_1px_4px_rgba(0,0,0,0.16)]
                                 mb-[1rem] sm:mb-[0]
 
-                            " key={index}>
+                            " 
+                                key={index}
+                                data-aos="fade"
+                                >
                                 <span className="
                                     d-block text-center text-[#0764f9] font-[600]
                                     text-[1.5rem] sm:text-[2rem] lg:text-[1.8rem] xl:text-[1.9rem] 2xl:text-[2rem]

@@ -14,7 +14,9 @@ const Consultation = () => {
                     text-[#fff] font-[600] text-center
                     text-[1.4rem] sm:text-[2rem] lg:text-[2.7rem] xl:text-[3.1rem] 2xl:text-[3.5rem]
                     w-full sm:w-[65%]
-                ">
+                "
+                    data-aos="fade-up"
+                >
                     Building <span className="text-[#fff]">Smarter</span> Businesses for a Connected <span className="text-[#fff]">World</span>
                 </h6>
                 <p className="
@@ -22,7 +24,9 @@ const Consultation = () => {
                     text-[1.1rem] sm:text-[1.3rem] lg:text-[1.05rem] xl:text-[1.2rem] 2xl:text-[1.3rem]
                     w-full sm:w-[50%]
                     mt-[0.7rem] sm:mt-[1rem]
-                ">
+                "
+                    data-aos="fade"
+                >
                     Through thoughtful collaboration, we help brands move forward with clarity, confidence, and consistency.
                 </p>
                 <Link to="/contact" className="

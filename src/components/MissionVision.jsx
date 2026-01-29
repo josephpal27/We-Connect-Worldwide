@@ -37,7 +37,9 @@ const MissionVision = () => {
                         <h2 className="
                             text-[1.4rem] sm:text-[1rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem]
                             font-[600] text-[#0764f9]
-                        ">
+                        "
+                            data-aos="fade"
+                        >
                             Introducing <span className="text-[#0764f9]">The Best</span> World Wide <span className="text-[#0764f9]">Network Services</span>
                         </h2>
                     </div>
@@ -48,7 +50,9 @@ const MissionVision = () => {
                         <p className="
                             text-[1.1rem] sm:text-[1.2rem] lg:text-[0.95rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
                             text-[#000] font-[500]
-                        ">
+                        "
+                            data-aos="fade"
+                        >
                             With a deep understanding of enterprise requirements, we work exclusively with businesses to simplify complex operations, reduce operational risks, and enhance overall efficiency. From startups and growing enterprises to large organizations, we partner with our clients at every stage of their journey, providing reliable, scalable, and future-ready solutions tailored to their unique needs.
                         </p>
                     </div>
@@ -56,7 +60,9 @@ const MissionVision = () => {
                 <div className="
                     d-flex justify-between flex-wrap
                     mt-[2.2rem] sm:mt-[3rem] lg:mt-[3.2rem] xl:mt-[3.6rem] 2xl:mt-[4rem]
-                ">
+                " 
+                    data-aos="fade" data-aos-once="true"
+                >
                     {
                         missionVisionData.map((item, index) => (
                             <div key={index} className="

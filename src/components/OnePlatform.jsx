@@ -24,7 +24,9 @@ const OnePlatform = () => {
                 ">
                     <h4 className="
                         text-[1.4rem] sm:text-[1rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem]
-                    ">
+                    "
+                        data-aos="fade-up"
+                    >
                         One Platform. <br /> <span className="text-[#0764f9]">Unlimited Reach.</span>
                     </h4>
                     <p className="
@@ -32,7 +34,9 @@ const OnePlatform = () => {
                         mt-[0.5rem] sm:mt-[1.5rem] lg:mt-[1.3rem] xl:mt-[1.4rem] 2xl:mt-[1.5rem]
                         font-[500]
                         text-[#000]
-                    ">
+                    "
+                        data-aos="fade"
+                    >
                         Technology solutions, business services, and visa & passport assistance—unified in one connected ecosystem.
                     </p>
                     <Link to="/services" className="

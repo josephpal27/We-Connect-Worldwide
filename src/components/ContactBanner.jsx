@@ -13,13 +13,15 @@ const ContactBanner = () => {
                     px-[1rem] sm:px-[5%] lg:px-[7%]
                     top-0 left-0 w-[100%] h-[100%] d-flex flex-col justify-end 
                     sm:bg-gradient-to-b from-[#00000016] to-[#000000d1]
-                    pb-[0] sm:pb-[5rem]
+                    pb-[0] sm:pb-[5.5rem]
                 ">
                     <h1 className="
                         text-[1.7rem] sm:text-[1rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem]
                         text-[#fff] font-[600] 
                         mt-[-2.9rem] sm:mt-[1rem] lg:mt-[0.5rem] xl:mt-[0.8rem] 2xl:mt-[1rem]
-                    ">
+                    "
+                        data-aos="fade-up"
+                    >
                         Contact <span className="text-[#fff]">Us</span>
                     </h1>
                     <p className="
@@ -27,7 +29,9 @@ const ContactBanner = () => {
                         text-[#000] sm:text-[#fff]  font-[500] sm:font-[600]
                         text-[1.1rem] sm:text-[1.2rem] lg:text-[0.95rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
                         mt-[1.85rem] sm:mt-[1rem] lg:mt-[0.5rem] xl:mt-[0.8rem] 2xl:mt-[1rem]
-                    ">
+                    "
+                        data-aos="fade"
+                    >
                         Have a question? We’d love to hear from you.
                     </p>
                 </div>

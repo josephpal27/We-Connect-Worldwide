@@ -28,7 +28,9 @@ const BuildTrust = () => {
                         text-[1.4rem] sm:text-[1rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem]
                         text-[#0764f9]
                         font-[600]
-                    ">
+                    "
+                        data-aos="fade-up"
+                    >
                         Build trust <br /> through <span className="text-[#000]">real stories.</span>
                     </h5>
                     <p className="
@@ -36,7 +38,9 @@ const BuildTrust = () => {
                         mt-[0.5rem] sm:mt-[1.5rem] lg:mt-[1.3rem] xl:mt-[1.4rem] 2xl:mt-[1.5rem]
                         font-[500]
                         text-[#000]
-                    ">
+                    "
+                        data-aos="fade"
+                    >
                         We believe trust comes from transparency and real experiences. Our people share stories shaped by hands-on work and honest outcomes. No exaggeration, just real journeys and real impact.
                     </p>
                 </div>
