@@ -7,8 +7,9 @@ const HomeBanner = () => {
         <img
           src="/images/home-banner.avif"
           alt="Home Banner"
+          loading="eager"
           className="
-          w-[100%] object-cover
+          w-full object-cover
           h-[auto] sm:h-[88vh]
         "
         />

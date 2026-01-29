@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom"
 import logo from '../assets/images/logo/logo.png';
-import { FaInstagram, FaFacebookF, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaFacebookF, FaLinkedinIn, FaYoutube, FaPhoneAlt } from "react-icons/fa";
+import { RiMailOpenFill } from "react-icons/ri";
+import { FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
     return (
@@ -62,7 +64,7 @@ const Footer = () => {
                             <Link to="/about">About Us</Link>
                             <Link to="/contact">Contact</Link>
                         </div>
-                        <div>
+                        <div className="contact-info">
                             <span className="
                                 d-block font-[700]
                                 text-[1.5rem] lg:text-[1.3rem] xl:text-[1.4rem] 2xl:text-[1.5rem]
@@ -70,10 +72,10 @@ const Footer = () => {
                             ">
                                 Contact Info
                             </span>
-                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@weconnectworldwide.com" target="_blank">info@weconnectworldwide.com</a>
-                            <a href="#">212-763-3310 (For Visa)</a>
-                            <a href="#">212-222-0992 (For b2b)</a>
-                            <a href="https://maps.app.goo.gl/cEYAHQ9hZV7bECNW8" target="_blank">117-20, Queens Blvd, 2nd Floor, <br /> Forest Hills, New York - 11375</a>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@weconnectworldwide.com" target="_blank"> <RiMailOpenFill className="icn" /> info@weconnectworldwide.com</a>
+                            <a href="#"> <FaPhoneAlt className="icn" /> 212-763-3310 (For Visa)</a>
+                            <a href="#"> <FaPhoneAlt className="icn" /> 212-222-0992 (For b2b)</a>
+                            <a href="https://maps.app.goo.gl/cEYAHQ9hZV7bECNW8" target="_blank"> <FaLocationDot className="icn" /> 117-20, Queens Blvd, 2nd Floor, <br /> Forest Hills, New York - 11375</a>
                         </div>
                     </div>
                 </div>

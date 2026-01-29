@@ -4,8 +4,8 @@ const ContactBanner = () => {
     return (
         <>
             <section className="relative">
-                <img src="/images/contact-banner.avif" alt="Contact Banner" className="
-                    w-[100%] object-cover
+                <img src="/images/contact-banner.avif" alt="Contact Banner" loading="eager" className="
+                    w-full object-cover
                     h-[auto] sm:h-[88vh]
                 " />
                 <div className="
