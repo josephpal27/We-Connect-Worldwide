@@ -6,9 +6,7 @@ const Contact = () => {
     return (
         <>
             <ContactBanner />
-
             <ContactDetails />
-
             <ContactMap />
         </>
     )

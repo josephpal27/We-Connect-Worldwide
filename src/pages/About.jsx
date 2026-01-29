@@ -7,11 +7,8 @@ const About = () => {
     return (
         <>
             <AboutBanner />
-
             <MissionVision />
-
             <WhyChooseUs />
-
             <OurTeam />
         </>
     )

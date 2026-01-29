@@ -13,7 +13,7 @@ const ContactBanner = () => {
                     px-[1rem] sm:px-[5%] lg:px-[7%]
                     top-0 left-0 w-[100%] h-[100%] d-flex flex-col justify-end 
                     sm:bg-gradient-to-b from-[#00000016] to-[#000000d1]
-                    pb-[5rem]
+                    pb-[0] sm:pb-[5rem]
                 ">
                     <h1 className="
                         text-[1.7rem] sm:text-[1rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem]
