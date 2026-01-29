@@ -25,27 +25,28 @@ const MissionVision = () => {
     return (
         <>
             <section className="
-                py-[3rem] lg:py-[4rem] xl:py-[4.5rem] 2xl:py-[5rem]
-                px-[7%]
+                py-[2rem] sm:py-[3rem] lg:py-[4rem] xl:py-[4.5rem] 2xl:py-[5rem]
+                px-[1rem] sm:px-[5%] lg:px-[7%]
             ">
                 <div className="
                     d-flex justify-between flex-wrap
                 ">
                     <div className="
-                        w-[45%]
+                        w-full sm:w-[45%]
                     ">
                         <h2 className="
-                            text-[1rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem]
+                            text-[1.4rem] sm:text-[1rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem]
                             font-[600] text-[#0764f9]
                         ">
                             Introducing <span className="text-[#0764f9]">The Best</span> World Wide <span className="text-[#0764f9]">Network Services</span>
                         </h2>
                     </div>
                     <div className="
-                        w-[50%]
+                        w-full sm:w-[50%]
+                        mt-[0.6rem] sm:mt-0
                     ">
                         <p className="
-                            text-[1.2rem] lg:text-[0.95rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
+                            text-[1.1rem] sm:text-[1.2rem] lg:text-[0.95rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
                             text-[#000] font-[500]
                         ">
                             With a deep understanding of enterprise requirements, we work exclusively with businesses to simplify complex operations, reduce operational risks, and enhance overall efficiency. From startups and growing enterprises to large organizations, we partner with our clients at every stage of their journey, providing reliable, scalable, and future-ready solutions tailored to their unique needs.
@@ -54,20 +55,21 @@ const MissionVision = () => {
                 </div>
                 <div className="
                     d-flex justify-between flex-wrap
-                    mt-[3rem] lg:mt-[3.2rem] xl:mt-[3.6rem] 2xl:mt-[4rem]
+                    mt-[2.2rem] sm:mt-[3rem] lg:mt-[3.2rem] xl:mt-[3.6rem] 2xl:mt-[4rem]
                 ">
                     {
                         missionVisionData.map((item, index) => (
                             <div key={index} className="
-                                w-[32%]
+                                w-full sm:w-[32%]
                                 bg-[#0764f9]
                                 d-flex justify-between items-center flex-wrap
                                 py-[1rem] lg:py-[0.8rem] xl:py-[0.9rem] 2xl:py-[1rem]
-                                px-[1.2rem] lg:px-[1.3rem] xl:px-[1.4rem] 2xl:px-[1.5rem]
-                                rounded-[30px]
+                                px-[1rem] sm:px-[1.2rem] lg:px-[1.3rem] xl:px-[1.4rem] 2xl:px-[1.5rem]
+                                rounded-[13px] sm:rounded-[30px]
                                 text-[#fff]
                                 transition
                                 hover:translate-y-[-5px]
+                                mb-[1rem] sm:mb-[0]
                             ">
                                 <div className="
                                     w-[17%]
@@ -79,13 +81,13 @@ const MissionVision = () => {
                                 ">
                                     <span className="
                                         font-[700]
-                                        text-[1.5rem] lg:text-[1.3rem] xl:text-[1.4rem] 2xl:text-[1.5rem]
+                                        text-[1.3rem] sm:text-[1.5rem] lg:text-[1.3rem] xl:text-[1.4rem] 2xl:text-[1.5rem]
                                     ">
                                         {item.title}
                                     </span>
                                     <p className="
-                                        text-[1rem] lg:text-[0.8rem] xl:text-[0.9rem] 2xl:text-[1rem]
-                                        mt-[0.7rem] lg:mt-[0.5rem] xl:mt-[0.6rem] 2xl:mt-[0.7rem]
+                                        text-[1.05rem] sm:text-[1rem] lg:text-[0.8rem] xl:text-[0.9rem] 2xl:text-[1rem]
+                                        mt-[0.5rem] sm:mt-[0.7rem] lg:mt-[0.5rem] xl:mt-[0.6rem] 2xl:mt-[0.7rem]
                                     ">
                                         {item.desc}
                                     </p>

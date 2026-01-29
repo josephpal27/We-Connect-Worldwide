@@ -10,7 +10,7 @@ const ServiceHelps = () => {
             <section className="
                 pt-[0.5rem] sm:pt-[0.5rem] lg:pt-[0.3rem] xl:pt-[0.4rem] 2xl:pt-[0.5rem]
                 px-[7%]
-                pb-[10rem] sm:pb-[12rem] lg:pb-[12rem] xl:pb-[13rem] 2xl:pb-[15rem]
+                pb-[3rem] sm:pb-[12rem] lg:pb-[12rem] xl:pb-[13rem] 2xl:pb-[15rem]
             ">
                 <h3 className="
                     text-center text-[#0764f9] font-[600]
