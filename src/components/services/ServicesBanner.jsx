@@ -3,7 +3,7 @@ const ServicesBanner = () => {
     return (
         <>
             <section className="relative">
-                <img src="/images/services-banner.avif" alt="Services Banner" loading="eager" className="
+                <img src="/images/banners/services-banner.avif" alt="Services Banner" loading="eager" className="
                     w-full object-cover
                     h-[auto] sm:h-[88vh]
                 " />

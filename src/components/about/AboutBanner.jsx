@@ -4,7 +4,7 @@ const AboutBanner = () => {
     return (
         <>
             <section className="relative">
-                <img src="/images/about-banner.avif" alt="About Banner" loading="eager" className="
+                <img src="/images/banners/about-banner.avif" alt="About Banner" loading="eager" className="
                     w-full object-cover
                     h-[auto] sm:h-[88vh]
                 " />

@@ -5,7 +5,7 @@ const HomeBanner = () => {
     <>
       <section className="relative">
         <img
-          src="/images/home-banner.avif"
+          src="/images/banners/home-banner.avif"
           alt="Home Banner"
           loading="eager"
           className="
