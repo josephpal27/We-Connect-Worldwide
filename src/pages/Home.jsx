@@ -1,10 +1,10 @@
-import Brands from "../components/Brands"
-import Consultation from "../components/Consultation"
-import HomeBanner from "../components/HomeBanner"
-import OnePlatform from "../components/OnePlatform"
-import OurServices from "../components/OurServices"
-import SmartConnections from "../components/SmartConnections"
-// import Testimonials from "../components/Testimonials"
+import Brands from "../components/home/Brands"
+import Consultation from "../components/home/Consultation"
+import HomeBanner from "../components/home/HomeBanner"
+import OnePlatform from "../components/home/OnePlatform"
+import OurServices from "../components/home/OurServices"
+import SmartConnections from "../components/home/SmartConnections"
+// import Testimonials from "../components/home/Testimonials"
 
 const Home = () => {
   return (

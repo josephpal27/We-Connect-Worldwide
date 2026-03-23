@@ -2,22 +2,23 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import { servicesData } from "../data/servicesData"
+import { servicesHelpsData } from "../../data/servicesHelpsData"
 
-const OurServices = () => {
+const ServiceHelps = () => {
     return (
         <>
             <section className="
-                pt-[2.5rem] sm:pt-[2rem] lg:pt-[4rem] xl:pt-[4.5rem] 2xl:pt-[5rem]
+                pt-[0.5rem] sm:pt-[0.5rem] lg:pt-[0.3rem] xl:pt-[0.4rem] 2xl:pt-[0.5rem]
                 px-[7%]
+                pb-[3rem] sm:pb-[12rem] lg:pb-[12rem] xl:pb-[13rem] 2xl:pb-[15rem]
             ">
                 <h3 className="
                     text-center text-[#0764f9] font-[600]
-                    text-[1.7rem] sm:text-[2rem] lg:text-[2.7rem] xl:text-[3.1rem] 2xl:text-[3.5rem]
+                    text-[1.6rem] sm:text-[2rem] lg:text-[2.7rem] xl:text-[3.1rem] 2xl:text-[3.5rem]
                 "
                     data-aos="fade-up"
                 >
-                    Services
+                    Service Helps
                 </h3>
                 <p className="
                     text-center text-[#000] font-[500]
@@ -28,7 +29,7 @@ const OurServices = () => {
                 "
                     data-aos="fade"
                 >
-                    We Connect partners with businesses to simplify complexity and create meaningful progress.
+                    Trust grows when experiences are real. We believe in sharing genuine stories that reflect meaningful partnerships, real outcomes, and the value of working together.
                 </p>
 
                 <div className="services-slider" data-aos="fade-up" data-aos-once="true">
@@ -45,7 +46,7 @@ const OurServices = () => {
                             disableOnInteraction: false,
                         }}
                         pagination={{
-                            el: ".custom-pagination",
+                            el: ".services-help-pagination",
                             clickable: true,
                         }}
                         breakpoints={{
@@ -65,7 +66,7 @@ const OurServices = () => {
                     >
 
                         {
-                            servicesData.map((item, index) => {
+                            servicesHelpsData.map((item, index) => {
                                 return (
                                     <SwiperSlide key={index} className="
                                         d-flex flex-col items-center
@@ -112,11 +113,11 @@ const OurServices = () => {
                     </Swiper>
 
                     {/* Custom Pagination */}
-                    <div className="custom-pagination text-center"></div>
+                    <div className="services-help-pagination text-center mt-[0.5rem] lg:mt-[0]"></div>
                 </div>
             </section>
         </>
     )
 }
 
-export default OurServices
+export default ServiceHelps

@@ -1,5 +1,5 @@
-import brickImg from '../assets/images/brick.avif';
-import keyImg from '../assets/images/key.avif';
+import brickImg from '../../assets/images/brick.avif';
+import keyImg from '../../assets/images/key.avif';
 
 let whyChooseUsData = [
     {

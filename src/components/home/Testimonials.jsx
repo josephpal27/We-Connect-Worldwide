@@ -1,30 +1,26 @@
-import person1 from '../assets/images/testimonials/1.avif';
-import person2 from '../assets/images/testimonials/2.avif';
-import person3 from '../assets/images/testimonials/3.avif';
-import person4 from '../assets/images/testimonials/4.avif';
 
 let testimonialsData = [
     {
         id: 1,
-        image: person1,
+        image: "/images/testimonials/1.avif",
         name: "Aaliya Adams",
         message: "We Connect is a leading B2B service provider delivering integrated.",
     },
     {
         id: 2,
-        image: person2,
+        image: "/images/testimonials/2.avif",
         name: "Aaliya Adams",
         message: "We Connect is a leading B2B service provider delivering integrated.",
     },
     {
         id: 3,
-        image: person3,
+        image: "/images/testimonials/3.avif",
         name: "Aaliya Adams",
         message: "We Connect is a leading B2B service provider delivering integrated.",
     },
     {
         id: 4,
-        image: person4,
+        image: "/images/testimonials/4.avif",
         name: "Aaliya Adams",
         message: "We Connect is a leading B2B service provider delivering integrated.",
     }

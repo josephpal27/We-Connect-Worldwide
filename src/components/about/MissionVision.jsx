@@ -1,4 +1,4 @@
-import moneyIcon from '../assets/images/money.png';
+import moneyIcon from '../../assets/images/money.png';
 
 let missionVisionData = [
     {

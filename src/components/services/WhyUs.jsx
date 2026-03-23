@@ -1,12 +1,19 @@
-import { Link } from 'react-router-dom';
-import handshake from '../assets/images/handshake.avif';
+import { useState } from 'react';
+import handshake from '../../assets/images/handshake-2.avif';
 
-const OnePlatform = () => {
+const WhyUs = () => {
+
+    let [textShow, setTextShow] = useState(false);
+
+    let toggleText = () => {
+        setTextShow(prev => !prev);
+    }
+
     return (
         <>
             <section className="
                 px-[1rem] sm:px-[5%] lg:px-[7%]
-                py-[3rem] sm:py-[3rem] lg:py-[5rem] xl:py-[5.5rem] 2xl:py-[6rem]
+                py-[2.5rem] sm:py-[3rem] lg:py-[5rem] xl:py-[5.5rem] 2xl:py-[6rem]
                 d-flex justify-between items-center flex-wrap
             ">
                 <div className="
@@ -22,13 +29,14 @@ const OnePlatform = () => {
                     w-full sm:w-[45%]
                     mt-[2.2rem] sm:mt-0
                 ">
-                    <h4 className="
+                    <h3 className="
                         text-[1.4rem] sm:text-[1rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem]
+                        font-[600]
                     "
                         data-aos="fade-up"
                     >
-                        One Platform. <br /> <span className="text-[#0764f9]">Unlimited Reach.</span>
-                    </h4>
+                        Why our service <br /> <span className="text-[#0764f9]">Key Points of the Services</span>
+                    </h3>
                     <p className="
                         text-[1.1rem] sm:text-[1.3rem] lg:text-[1.05rem] xl:text-[1.2rem] 2xl:text-[1.3rem]
                         mt-[0.5rem] sm:mt-[1.5rem] lg:mt-[1.3rem] xl:mt-[1.4rem] 2xl:mt-[1.5rem]
@@ -37,10 +45,17 @@ const OnePlatform = () => {
                     "
                         data-aos="fade"
                     >
-                        Technology solutions, business services, and visa & passport assistance—unified in one connected ecosystem.
+                        We believe strong businesses are built on reliability, understanding, and long-term thinking. Our approach is not just about delivering solutions, but about working closely with you to understand your goals and challenges.
                     </p>
-                    <Link to="/services" className="
-                        d-block
+                    <p className="
+                        text-[1.1rem] sm:text-[1.3rem] lg:text-[1.05rem] xl:text-[1.2rem] 2xl:text-[1.3rem]
+                        mt-[0.5rem] sm:mt-[1.5rem] lg:mt-[1.3rem] xl:mt-[1.4rem] 2xl:mt-[1.5rem]
+                        font-[500]
+                        text-[#000]
+                    " data-aos="fade" style={textShow ? {display: 'block'} : {display: 'none'}}>
+                        By combining consistency with thoughtful execution, we help businesses operate smoothly and grow with confidence. Every partnership is guided by transparency, accountability, and a commitment to creating real, lasting value.
+                    </p>
+                    <button onClick={toggleText} className="
                         w-max 
                         bg-[#0764f9]
                         text-[#fff] 
@@ -53,11 +68,15 @@ const OnePlatform = () => {
                         hover:bg-[#0459e2] hover:translate-y-[-5px]
                         shadow-[0_5px_15px_rgba(0,0,0,0.35)]
                         transition
-                    ">Explore Services</Link>
+                    ">
+                        {
+                            textShow ? "Read Less" : "Read More"
+                        }
+                    </button>
                 </div>
             </section>
         </>
     )
 }
 
-export default OnePlatform
+export default WhyUs

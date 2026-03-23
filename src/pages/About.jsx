@@ -1,7 +1,7 @@
-import AboutBanner from "../components/AboutBanner"
-import MissionVision from "../components/MissionVision"
-import OurTeam from "../components/OurTeam"
-import WhyChooseUs from "../components/WhyChooseUs"
+import AboutBanner from "../components/about/AboutBanner"
+import MissionVision from "../components/about/MissionVision"
+import OurTeam from "../components/about/OurTeam"
+import WhyChooseUs from "../components/about/WhyChooseUs"
 
 const About = () => {
     return (

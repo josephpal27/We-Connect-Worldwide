@@ -1,14 +1,9 @@
 
-import brand1 from '../assets/images/brands/1.png';
-import brand2 from '../assets/images/brands/2.png';
-import brand3 from '../assets/images/brands/3.png';
-import brand4 from '../assets/images/brands/4.png';
-
 let brandsData = [
-    {id: 1, image: brand1},
-    {id: 2, image: brand2},
-    {id: 3, image: brand3},
-    {id: 4, image: brand4},
+    {id: 1, image: "/images/brands/1.png"},
+    {id: 2, image: "images/brands/2.png"},
+    {id: 3, image: "images/brands/3.png"},
+    {id: 4, image: "images/brands/4.png"},
 ]
 
 const Brands = () => {

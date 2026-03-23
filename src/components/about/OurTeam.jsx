@@ -1,24 +1,22 @@
-import userM from '../assets/images/team/user-m.avif';
-import userF from '../assets/images/team/user-f.avif';
 
 let teamData = [
     {
         id: 1,
-        image: userF,
+        image: "/images/team/user-f.avif",
         name: "Tashi Palmo",
         designation: "(Team head)",
         para: "Brings strategic vision and hands-on expertise",
     },
     {
         id: 2,
-        image: userM,
+        image: "/images/team/user-m.avif",
         name: "Nishant Nick Garg",
         designation: "(Team head)",
         para: "Leads with clarity, experience, and purpose",
     },
     {
         id: 3,
-        image: userF,
+        image: "/images/team/user-f.avif",
         name: "Sonam Garg",
         designation: "(Team head)",
         para: "Focused on building quality at every level",

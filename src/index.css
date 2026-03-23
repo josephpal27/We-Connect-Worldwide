@@ -14,12 +14,12 @@ html{
 
 @font-face {
   font-family: "OliGrotesk";
-  src: url("./assets/fonts/Oli Grotesk L Regular.woff2") format("woff2");
+  src: url("/fonts/Oli Grotesk L Regular.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "NativeDesigner";
-  src: url("./assets/fonts/NativeDesigner-Italic.woff2") format("woff2");
+  src: url("/fonts/NativeDesigner-Italic.woff2") format("woff2");
 }
 
 body{
